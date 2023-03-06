@@ -1,6 +1,5 @@
 import {useDispatch} from 'react-redux';
 import { counterActions } from '../redux/counterSlice';
-
 export const CounterUpdater: React.FC = () => {
     const dispatch = useDispatch();
     return <div>
