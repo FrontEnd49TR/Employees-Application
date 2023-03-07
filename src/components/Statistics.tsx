@@ -49,4 +49,5 @@ export const Statistics: React.FC<Props> = ({ title, field, objects }) => {
          fontWeight: "bold", textAlign: "center"}}>{title}</Typography>
         <DataGrid columns={columns} rows={[statistics]} />
     </Box>
+    
 }
