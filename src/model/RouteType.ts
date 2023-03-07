@@ -4,3 +4,4 @@ export type RouteType = {
     flAuth: boolean,
     flAdmin?: boolean
 }
+
