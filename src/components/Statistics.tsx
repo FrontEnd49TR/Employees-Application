@@ -43,11 +43,10 @@ export const Statistics: React.FC<Props> = ({ title, field, objects }) => {
         statistics.avgValue = Math.round(statistics.avgValue / objects.length);
     }
 
-
     return <Box sx={{ width: "50vw", height: "30Vh" }}>
         <Typography sx={{fontSize: "1.8em",
          fontWeight: "bold", textAlign: "center"}}>{title}</Typography>
         <DataGrid columns={columns} rows={[statistics]} />
     </Box>
-    
+
 }
